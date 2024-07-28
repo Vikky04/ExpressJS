@@ -21,3 +21,39 @@ app is listening
 Hello
 
 */
+
+// path parameters
+/*
+
+app.get("/:variablename/:var2...",(req,res)=>{
+   console.log(req.params(any varible is came as parameter will store in req onject as params))    
+})
+localhost:----/varname/varname2...
+*/
+
+parametr and query 
+app.get("/:username/:id",(req,res)=>{
+   console.log(req.params);
+   let {username,id}=req.params;
+   let htmlstr=id;
+   res.send(htmlstr);
+});
+//query string
+// req.query
+/*
+app.get("/search",(req,res)=>{
+   console.log(req.query);
+});
+*/
+
+
+
+
+
+
+
+
+
+
+
+
