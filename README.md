@@ -6,3 +6,18 @@ Installing and Initializing the express :
 
 Ports : ports are logical endpoints of a network connection that is used to exchange information between web server and a web client.
 
+Nodemon Install : 
+// nodemon automatically start server with code changes
+/*
+PS C:\Users\vicky\OneDrive\main\WebDev> nodemon index.js
+[nodemon] 3.1.4
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,cjs,json
+[nodemon] starting `node index.js`
+app is listening
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+Hello
+
+*/
